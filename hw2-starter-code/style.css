@@ -1,0 +1,69 @@
+/* TODO(you): Write the CSS to finish the assignment! */
+@media (max-width:700px) and (min-width:500px){
+    article{
+        width:95%;
+    }
+    header div{
+        display:none;
+    }
+}
+@media (max-width:500px){
+    article{
+        width:95%;
+    }
+    header div{
+        display:none;
+    }
+    .choice-grid div{
+        width:49% !important;
+    }
+}
+
+.choice-grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+  }
+  
+.choice-grid div{
+    border:1px solid #dcdcdc;
+    box-sizing:border-box;
+    padding:10px;
+    background-color:#f4f4f4;
+    margin-bottom:20px;
+    width:32.5%;
+  }
+  
+  .pdog{
+    width:100%;
+  }
+  
+  .hidden{
+      display:none;
+  }
+  #solution{
+      border:1px solid #dcdcdc;
+      padding:20px;
+      margin-top:20px;
+      margin-bottom:20px;
+      width:700px;
+      box-sizing:border-box;
+      background-color:white;
+  }
+  .title{
+      font-weight:bold;
+      font-size:20px;
+      margin-bottom:18px;
+  }
+  .content{
+      margin-bottom:18px;
+  }
+  .reset{
+      text-align:center;
+      height:50px;
+      line-height:50px;
+      background-color:#cecece;
+  }
+  .reset:hover{
+      background-color:#e0e0e0;
+  }
